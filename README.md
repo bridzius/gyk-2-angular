@@ -17,7 +17,7 @@ Užduotis #2 – Sukurti šias puslapių struktūras:
     Kiekviena užduotis turi turėti nuorodą, vedančią į jos atskirą puslapį. Puslapyje gaukite info apie užduotį iš TasksService.
 - Kiekvienos užduoties atskiras puslapis („tasks/:id“ maršrutas)
     Sukurkite dinaminį puslapį, kuris atvaizduos vienos konkrečios užduoties informaciją.
-    Informacija gali apimti užduoties aprašymą, sukūrimo datą, būseną, galutinį terminą ir galimybę ją redaguoti ar ištrinti.
+    Naudokite `ActivatedRoute` Injectable. Gaukite task id per `activatedRoute.snapshot.params.id`.
 - Navigacijos juosta
     Pridėkite viršuje esantį navigacijos meniu, kuris leis vartotojui lengvai pereiti tarp skirtingų puslapių.
 
