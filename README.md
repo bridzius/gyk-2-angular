@@ -1,13 +1,13 @@
-GYK Angular #2
+# GYK Angular #2
 
-Task #1:
+## Task #1:
 Užduotis #1 - Perkelti užduotis į service.
 Pridėti tasks parametrą, kuris būtų prieinamas iš išorės (eksponuotų užduočių sąrašą).
 Sukurti addTask metodą, kuris leistų pridėti naują užduotį.
 Užduotys turėtų automatiškai gauti unikalų identifikatorių (id) jas pridedant.
 Sukurti getTaskById metodą, kuris pagal pateiktą id grąžintų konkrečią užduotį.
 
-Task #2:
+## Task #2:
 Užduotis #2 – Sukurti šias puslapių struktūras:
 - Pradinis puslapis („“ maršrutas)
     Sukurkite pagrindinį puslapį, kuriame bus pasveikinimas
@@ -20,6 +20,7 @@ Užduotis #2 – Sukurti šias puslapių struktūras:
     Informacija gali apimti užduoties aprašymą, sukūrimo datą, būseną, galutinį terminą ir galimybę ją redaguoti ar ištrinti.
 - Navigacijos juosta
     Pridėkite viršuje esantį navigacijos meniu, kuris leis vartotojui lengvai pereiti tarp skirtingų puslapių.
-Navigacijoje turėtų būti bent šios nuorodos:
+
+### Navigacijoje turėtų būti bent šios nuorodos:
 1. Pradžia („Pagrindinis“)
 2. Užduočių sąrašas („Užduotys“)
