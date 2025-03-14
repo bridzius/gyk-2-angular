@@ -1,0 +1,7 @@
+<h1>Mano šiandienos užduotys:</h1>
+<ul>
+  @for (taskas of taskai; track $index) {
+  <li><app-task [task]="taskas"></app-task></li>
+  }
+</ul>
+<button (click)="pridek()">Pridek nauja taskska</button>
