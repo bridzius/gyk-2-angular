@@ -8,8 +8,6 @@ Dependency Injection, Routing, HTTP
 - **Kodėl naudoti DI?** - Tai padeda sukurti lengviau testuojamą ir prižiūrimą kodą, sumažina klasių tarpusavio priklausomybę ir pagerina kodo pakartotinį panaudojimą.
 - **Kaip DI veikia Angular?** - Angular naudoja du būdus įterpti priklausomybes: per `constructor` arba naudojant `inject()` funkciją. Abu metodai leidžia gauti serviso instanciją.
 
-### Code Examples
-
 **Per `constructor`:**
 
 ```typescript
@@ -159,16 +157,15 @@ export class AuthGuard implements CanActivate {
 
 **Providing HttpClient:**
 
-In your `main.ts`:
-
 ```typescript
-import { bootstrapApplication } from "@angular/platform-browser";
-import { AppComponent } from "./app/app.component";
+//app.config.ts
 import { provideHttpClient } from "@angular/common/http";
 
-bootstrapApplication(AppComponent, {
-  providers: [provideHttpClient()],
-});
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideHttpClient(),
+  ]
+};
 ```
 
 **HttpClient Naudojimas:**
