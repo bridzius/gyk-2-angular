@@ -203,8 +203,8 @@ export class ApiService {
 ```
 
 3. Paleidus `npx json-server` ir pakvietus `http://localhost:3000/tasks` dabar turėtumėte gauti užduotis iš serverio.
-4. Naudokit HttpClient ir pakeiskite lokalų užduočių masyvą į HTTP užklausas.
-5. Pakeiskite TasksService `tasks` parametrą į funkciją, kuri grąžina visas užduotis, kviečiant GET `http://localhost:3000/tasks`.
+4. Naudokit `HttpClient` ir pakeiskite lokalų užduočių masyvą į HTTP užklausas.
+5. Pakeiskite `TasksService` `tasks` parametrą į funkciją, kuri grąžina visas užduotis, kviečiant GET `http://localhost:3000/tasks`.
 6. Pakeiskite `addTask`, taip, kad būtų kviečiamas POST `http://localhost:3000/tasks`.
 7. Pakeiskite `getTaskById`, kad gautų užduotį iš GET `http://localhost:3000/tasks/{id}`.
 
